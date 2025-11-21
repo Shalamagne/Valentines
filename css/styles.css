@@ -134,15 +134,12 @@
 
 /* FONTS */
 @font-face {
-  font-family: 'CasinoShadow-Italic-Woff';
-  src: url('../assets/casino_2/CasinoShadow-Italic-Woff2.woff2') format('woff2');
-  font-weight: normal;
+  font-family: 'CasinoShadow';
+  src: url('../assets/casino_2/CasinoShadow-Italic-Woff2.woff') format('woff2'),
+       url('../assets/casino_2/CasinoShadow-Italic-Woff.woff') format('woff');
   font-style: italic;
-}
-
-.element {
-  font-family: 'CasinoShadow-Italic-Woff2', sans-serif;
-  color: #FF5733; /* Example color */
+  font-weight: normal;
+  font-display: swap;
 }
 
 @layer base {
