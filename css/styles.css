@@ -134,11 +134,11 @@
 
 /* FONTS */
 @font-face {
-  font-family: 'CasinoShadow';
-  src: url('../assets/casino_2/CasinoShadow-Italic-Woff2.woff') format('woff2'),
+  font-family: 'CasinoShadowItalic';
+  src: url('../assets/casino_2/CasinoShadow-Italic-Woff2.woff2') format('woff2'),
        url('../assets/casino_2/CasinoShadow-Italic-Woff.woff') format('woff');
-  font-style: italic;
   font-weight: normal;
+  font-style: italic;
   font-display: swap;
 }
 
