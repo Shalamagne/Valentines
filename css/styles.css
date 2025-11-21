@@ -134,14 +134,14 @@
 
 /* FONTS */
 @font-face {
-  font-family: 'CasinoShadow-Italic';
-  src: url('../assets/casino_2/CasinoShadow-Italic.ttf') format('truetype');
+  font-family: 'CasinoShadow-Italic-Woff';
+  src: url('../assets/casino_2/CasinoShadow-Italic-Woff.woff2') format('Woff2');
   font-weight: 'normal';
   font-style: italic;
 }
 
 .element {
-  font-family: 'CasinoShadow-Italic', sans-serif;
+  font-family: 'CasinoShadow-Italic-Woff', sans-serif;
   color: #FF5733; /* Example color */
 }
 
