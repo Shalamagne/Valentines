@@ -13,13 +13,13 @@
     <meta name="color-scheme" content="light dark" />
     <link
       rel="preload"
-      href="js/runtimes.js"
+      href="./js/runtimes.js"
       as="script"
       crossorigin=""
     />
     <link
       rel="preload"
-      href="js/components.js"
+      href="./js/components.js"
       as="script"
       crossorigin=""
     />
@@ -133,7 +133,7 @@
     <title id="title-hw5j9w">Valentine's Fashion Showcase Site</title>
     <link
       rel="stylesheet"
-      href="css/styles.css"
+      href="./css/styles.css"
     />
   </head>
   <body>
@@ -141,7 +141,7 @@
       window.__cf_country = "GB";
     </script>
     <script type="module">
-      import { SitesRuntime } from "js/runtime.js";
+      import { SitesRuntime } from "./js/runtime.js";
       const sitesRuntime = new SitesRuntime({
         container: document.getElementById("container"),
         env: "published",
@@ -897,7 +897,7 @@
                       class="flex items-center gap-2 hover:opacity-80 transition-opacity"
                     >
                       <img
-                        src="assets/logo.png"
+                        src="./assets/logo.png"
                         alt="Valentine's"
                         class="h-32 md:h-40 lg:h-48 w-auto"
                       />
