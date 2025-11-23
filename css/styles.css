@@ -140,6 +140,7 @@
        url('../assets/casino_2/CasinoShadow-Italic.ttf') format('truetype');
   font-weight: normal;
   font-style: italic;
+  font-display: swap;
 }
 
 @layer base {
