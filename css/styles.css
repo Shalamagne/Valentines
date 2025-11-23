@@ -745,9 +745,12 @@
     overflow: hidden;
   }
 
+  .casino-text {
+    font-family: 'CasinoShadow-Italic', sans-serif;
+  }
+
   .block {
     display: block;
-    font-family: 'CasinoShadow-Italic', sans-serif;
   }
 
   .flex {
